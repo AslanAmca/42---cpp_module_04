@@ -6,11 +6,12 @@
 /*   By: aaslan <aaslan@student.42kocaeli.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/30 19:55:56 by aaslan            #+#    #+#             */
-/*   Updated: 2023/07/31 18:21:24 by aaslan           ###   ########.fr       */
+/*   Updated: 2023/07/31 23:03:55 by aaslan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "AMateria.hpp"
+#include "ICharacter.hpp"
 
 AMateria::AMateria(void)
 {

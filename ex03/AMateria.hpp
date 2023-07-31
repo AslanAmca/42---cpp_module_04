@@ -6,7 +6,7 @@
 /*   By: aaslan <aaslan@student.42kocaeli.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/30 19:48:15 by aaslan            #+#    #+#             */
-/*   Updated: 2023/07/31 18:21:52 by aaslan           ###   ########.fr       */
+/*   Updated: 2023/07/31 23:14:15 by aaslan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,9 @@
 
 #include <iostream>
 
-#include "ICharacter.hpp"
+// Forward Declaration (İleri bildirim) yöntemi
+// ICharacter sınıfının var olduğunu bildiriyoruz.
+class ICharacter;
 
 class AMateria
 {

@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "Cure.hpp"
+#include "ICharacter.hpp"
 
 Cure::Cure(void)
 {
@@ -21,7 +22,7 @@ Cure::~Cure(void)
 {
 }
 
-Cure::Cure(const Cure &other)
+Cure::Cure(const Cure &other) : AMateria(other)
 {
 	this->type = other.type;
 }

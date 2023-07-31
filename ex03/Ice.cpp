@@ -6,11 +6,12 @@
 /*   By: aaslan <aaslan@student.42kocaeli.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/31 18:25:47 by aaslan            #+#    #+#             */
-/*   Updated: 2023/07/31 18:35:15 by aaslan           ###   ########.fr       */
+/*   Updated: 2023/07/31 23:07:49 by aaslan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Ice.hpp"
+#include "ICharacter.hpp"
 
 Ice::Ice(void)
 {
@@ -21,7 +22,7 @@ Ice::~Ice(void)
 {
 }
 
-Ice::Ice(const Ice &other)
+Ice::Ice(const Ice &other) : AMateria(other)
 {
 	this->type = other.type;
 }
@@ -43,5 +44,5 @@ AMateria *Ice::clone(void) const
 
 void Ice::use(ICharacter &target)
 {
-	std::cout << "* shoots an ice bolt at " << target.getName() << "*" << std::endl;
+	std::cout << "* shoots an ice bolt at " << target.getName() << " *" << std::endl;
 }

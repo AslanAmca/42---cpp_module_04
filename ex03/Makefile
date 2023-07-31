@@ -6,14 +6,14 @@
 #    By: aaslan <aaslan@student.42kocaeli.com.tr    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/24 11:23:19 by aaslan            #+#    #+#              #
-#    Updated: 2023/07/30 19:39:48 by aaslan           ###   ########.fr        #
+#    Updated: 2023/07/31 22:48:31 by aaslan           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		:= interface
 CXX			:= c++
 CXXFLAGS	:= -Wall -Wextra -Werror -std=c++98
-SRC			:= AAnimal.cpp Dog.cpp Cat.cpp WrongAnimal.cpp WrongCat.cpp Brain.cpp main.cpp
+SRC			:= AMateria.cpp Character.cpp Cure.cpp Ice.cpp MateriaSource.cpp main.cpp
 
 all: $(NAME)
 
